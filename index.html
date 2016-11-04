@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Images</title>
+    <link rel='stylesheet' href='styles/main.css'>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto+Condensed" rel="stylesheet">
+
+  </head>
+
+<body>
+
+  <article>
+
+    <header>
+      <h1>Manipulating Images with JavaScript</h1>
+    </header>
+
+    <p>
+      By Ethan Bauer
+    </p>
+
+    <p>
+      Below, you'll find a brief slideshow featuring pictures I took while doing a photo profile of Sister Ana Luisa Galvan-Monrreal, a local nun who works at St. Augustine Catholic Church. I made the slideshow using jQuery. 
+    </p>
+
+    <div class='carousel-outer'>
+      <div class='arrowContainer'>
+        <a class='backLink' href='#'>&#8592</a>
+      </div>
+      <div class='carousel-inner'>
+        <img class='image-visible' src='images/bike.jpeg' alt='Sister Ana rides her bike'>
+        <img class='image-invisible' src='images/painting.jpeg' alt='Sister Ana kneels under a painting of Jesus'>
+        <img class='image-invisible' src='images/dude.jpeg' alt='Sr. Ana talks with a man outside an abortion clinic'>
+        <img class='image-invisible' src='images/prayer.jpeg' alt='Sr. Ana kneels in prayer'>
+      </div>
+      <div class='arrowContainer'>
+        <a class='forwardLink' href='#'>&#8594</a>
+      </div>
+      <div class='clearHere'></div>
+    </div>
+
+    <p>
+      All photos used in this slideshow are my own.
+    </p>
+  </article>
+
+<script src='scripts/jquery.min.js'></script>
+<script src='scripts/main.js'></script>
+
+</body>
+
+</html>
